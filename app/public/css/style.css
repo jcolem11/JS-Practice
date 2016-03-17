@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body{
+	color: #fff; 
+	background-color: #fcfcfc;
+	font-family: 'Lato', sans-serif;
+}
+
+#content{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0; 
+   margin: auto;
+   width: 300px;
+   height: 400px;
+   border-radius: 3px;
+   box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.2);
+   background-color: white;
+}
+
+#hero{
+	text-align: center;
+}
+
+#name{
+	text-align: center;
+	color: #54003C;
+}

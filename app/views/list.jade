@@ -1,0 +1,22 @@
+//- mixins
+
+mixin itemList(items)
+  ul
+    each item in items
+      img(src=item.sprite)
+      li.card= item.name
+
+//- end mixins
+
+doctype html
+html
+  head
+    title!= title
+    link(rel='stylesheet', href='/css/list.css')   
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js')
+
+  body
+   div#content
+     +itemList(items)
+

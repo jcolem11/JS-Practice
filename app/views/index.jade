@@ -1,0 +1,22 @@
+//- mixins
+
+//- end mixins
+
+doctype html
+html
+  head
+    title!= title
+    link(rel='stylesheet', href='/css/home_style.css')   
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js')
+    script(src='/scripts/rainbow.js')
+
+  body
+  a(href='/list') List
+  form(action='/',method='post')
+    label(for='number') No.
+    input(type='text', id='number')
+  div#content
+    div#hero
+      h1 #{title}
+      i: h3 #{message}

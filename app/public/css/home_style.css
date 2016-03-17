@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body{
+	background-color: #F6F6F6; 
+	color: #54003C;
+	font-family: 'Lato', sans-serif;
+}
+
+#content{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0; 
+   margin: auto;
+   min-width: 500px;
+   max-width: 1000px;
+   min-height: 100px;
+   max-height: 150px;
+   /*border-radius: 3px;*/
+   /*box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.2);*/
+/*   background-color: white; */
+}
+h1{
+   font-size: 48pt;
+}
+
+h3{
+   font-size: 24pt;
+}
+
+#hero{
+	text-align: center;
+}
