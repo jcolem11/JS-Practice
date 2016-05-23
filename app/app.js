@@ -31,11 +31,15 @@ app.get('/api/:id', function (req,res){
 });
 
 app.get('/canvas', function (req,res){
-  res.render('canvas')
+  res.render('canvas');
 });
 
 app.get('/press', function (req,res){
-  res.render('press')
+  res.render('press');
+});
+
+app.get('/wave', function (req,res){
+  res.render('wave');
 });
 
 app.get('/list', function (req,res){
