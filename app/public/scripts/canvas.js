@@ -4,7 +4,6 @@ function RainDrop (x,y,z) {
 	this.x = x;
 	this.y = y;
 	this.z = z;
-	this.height = getRandomArbitrary(25,80);
 	this.originalX = this.x;
 }
 
@@ -55,7 +54,6 @@ function draw() {
 		var index = drops.indexOf(d);
 		if (index > -1) {
 			drops.splice(index, 1);
-			console.log("Removing drop");
 		 }
 	 }
 		d.y+= 40;
@@ -64,7 +62,6 @@ function draw() {
 
 		fill(246, 246, 246,100/d.z);
 		noStroke();
-		var size = 5;
-		rect(d.x,d.y,size,80*(1/d.z));
+		rect(d.x,d.y,1,120*(1/d.z));
 	}
 }

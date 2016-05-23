@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
+    "firebase-tools": "^3.0.0",
     "jade": "^1.11.0",
     "request": "^2.67.0"
   }

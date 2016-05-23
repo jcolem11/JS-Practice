@@ -34,6 +34,10 @@ app.get('/canvas', function (req,res){
   res.render('canvas')
 });
 
+app.get('/press', function (req,res){
+  res.render('press')
+});
+
 app.get('/list', function (req,res){
     request('http://pokeapi.co/api/v1/pokedex/1/', function (error,response,body){
         var dex = JSON.parse(body)
