@@ -34,6 +34,10 @@ app.get('/canvas', function (req,res){
   res.render('canvas');
 });
 
+app.get('/stars', function (req,res){
+  res.render('stars');
+});
+
 app.get('/press', function (req,res){
   res.render('press');
 });
