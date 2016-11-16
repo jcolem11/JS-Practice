@@ -20,7 +20,7 @@ function getRandomArbitrary(min, max) {
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
-  background(246, 246, 246);
+  background(237, 81, 104);
   angleMode(DEGREES);
   frameRate(60);
 
@@ -44,7 +44,7 @@ function setup() {
 }
 
 function draw() {
-  background(254, 79, 110);
+  background(237, 81, 104);
   for (i=0; i < data.length;i++){
     var p = data[i];
     noStroke();

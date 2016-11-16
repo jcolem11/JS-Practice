@@ -30,7 +30,7 @@ app.get('/api/:id', function (req,res){
 	})
 });
 
-app.get('/canvas', function (req,res){
+app.get('/rain', function (req,res){
   res.render('canvas');
 });
 
@@ -44,6 +44,14 @@ app.get('/press', function (req,res){
 
 app.get('/wave', function (req,res){
   res.render('wave');
+});
+
+app.get('/helix', function (req,res){
+  res.render('helix');
+});
+
+app.get('/collection', function (req,res){
+  res.render('collection');
 });
 
 app.get('/list', function (req,res){
